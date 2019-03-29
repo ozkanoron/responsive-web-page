@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="vue-component.js"></script>
+
+    <link rel="stylesheet" href="nav-bar-responsive.css">
+    <style>
+
+
+    </style>
+  </head>
+  <body>
+    <div class="top-bar">
+      <div class="container">
+          <span class="top-marg">
+             <span style="color:#37ca8a;"><i class="fas fa-map-marker-alt"></i></span> 6036 Richmond hwy, Alexandria, VA USA 22303
+           </span>
+          <span class="top-marg">
+             <span style="color:#37ca8a;"><i class="far fa-clock"></i></span> Mon – Sat: 9:00am–18:00pm. Sunday CLOSED
+           </span>
+          <span class="top-marg"><span style="color:#37ca8a;"> <i class="fas fa-phone"></i></i></span> +90(232) 111 11 11</span>
+          <span class="top-marg social-ico">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-google-plus-g"></i>
+          </span>
+      </div>
+    </div>
+
+
+    <div class="container header-responsive">
+        <h1><span class="comp-name">LOGO</span></h1>
+        <i onclick="openNav()" class="fas fa-bars"></i>
+    </div>
+    <div id="myNav" class="overlay">
+      <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="#">HOME</a>
+        <a href="#">ABOUT US</a>
+        <a href="#">CONTACTS</a>
+        <a href="#">BLOG</a>
+        <a href="#">GALLERY</a>
+        <br><br>
+        <span><i style="color:#37ca8a;" class="fas fa-map-marker-alt"></i>
+           <span style="color:white;">6036 Richmond hwy, Alexandria, VA USA 22303</span>
+         </span><br><br>
+         <span><i style="color:#37ca8a;" class="far fa-clock"></i>
+            <span style="color:white;">Mon – Sat: 9:00am–18:00pm. Sunday CLOSED</span>
+          </span><br><br>
+          <span><i style="color:#37ca8a;" class="fas fa-phone"></i>
+             <span style="color:white;">+90(232) 111 11 11</span>
+           </span><br><br>
+           <span class="top-marg social-ico">
+             <i class="fab fa-facebook-f"></i>
+             <i class="fab fa-instagram"></i>
+             <i class="fab fa-google-plus-g"></i>
+           </span>
+      </div>
+    </div>
+
+    <div class="container header">
+        <div class="nav-bar">
+                <h1><span class="comp-name">LOGO</span></h1>
+            <ul class="nav-bar-list">
+                <li>HOME</li>
+                <li>ABOUT US</li>
+                <li>CONTACTS</li>
+                <li>BLOG</li>
+                <li>GALLERY</li>
+            </ul>
+        </div>
+      </div>
+
+      <div class="site-body">
+        <div class="top-image">
+          <div class="top-image-bg">
+            <div class="container text">
+                <span id="text"><span id="upgrade">UPGRADE</span> YOUR BUSINESS</span>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <button type="button" class="button" name="button">Learn More</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- Vue component used here-->
+      <div id="site-content">
+        <boxes icon="fas fa-briefcase icons" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry."></boxes>
+        <boxes icon="fas fa-calculator icons" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry."></boxes>
+        <boxes icon="far fa-calendar-check icons" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry."></boxes>
+        <boxes icon="far fa-star icons" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry."></boxes>
+        <boxes icon="far fa-question-circle icons" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry."></boxes>
+        <boxes icon="far fa-thumbs-up icons" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry."></boxes>
+
+      </div>
+
+      <div class="col-sm-12 middle">
+          <div class="middle-text">
+            <h1>LOREM IPSUM</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <button type="button" class="button" name="button">Lorem Ipsum</button>
+          </div>
+      </div>
+
+      <div class="col-sm-12 team" id="team">
+          <h1><b>OUR</b> TEAM</h1>
+              <team image="images/img_avatar.png" name="John Doe" job="Front-end developer" mail="example@gmail.com" phone=" +90(553) 555 55 55"></team>
+              <team image="images/img_avatar2.png" name="Amanda Smith" job="Writer" mail="smamanda@gmail.com" phone=" +90(553) 555 55 55"></team>
+              <team image="images/img_avatar.png" name="Tony Stark" job="Software developer" mail="stark@gmail.com" phone=" +90(553) 555 55 55"></team>
+              <team image="images/img_avatar.png" name="Scott Hope" job="Front-end developer" mail="example@gmail.com" phone=" +90(553) 555 55 55"></team>
+      </div>
+
+
+      <div class="col-sm-12 form">
+        <div class="form-style">
+          <h1 style="color:white;"> <span> <b>REQUEST</b> </span> A CALLBACK</h1>
+              <input type="text" name="firstname" placeholder="Your name..">
+              <input type="text" name="lastname" placeholder="Phone number..">
+              <input type="text" name="lastname" placeholder="Email..">
+              <button type="button" class="button2" name="button">Send <i class="far fa-paper-plane"></i></button>
+        </div>
+      </div>
+      <div class="col-sm-12 footer">
+          <p>Created by Ozkan Kurun.</p>
+      </div>
+        <script>
+        function openNav() {
+          document.getElementById("myNav").style.height = "100%";
+        }
+
+        function closeNav() {
+          document.getElementById("myNav").style.height = "0%";
+        }
+        </script>
+  </body>
+</html>

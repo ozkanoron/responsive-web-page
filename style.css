@@ -1,0 +1,206 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+body{font-family:Raleway; }
+.top-bar{
+  width: 100%;
+  min-height: 50px;
+  background: #222;
+  color:white;
+  font-size: 14px;
+  padding-top:12px;
+}
+.top-marg{
+  margin-right:20px;
+}
+.social-ico{
+  font-size: 14px;
+
+}
+.social-ico i{
+  margin-left:5px;
+  padding: 8px;
+  background: #333333;
+  border-radius: 5px;
+  -webkit-transition:background-color;
+  transition: 0.2s;
+}
+.social-ico i:hover{
+  background-color: #37ca8a;
+  cursor: pointer;
+}
+
+.nav-bar-list{
+  float: right;
+  margin-right: 150px;
+}
+.nav-bar-list li{
+float: left;
+list-style: none;
+margin-right: 30px;
+font-size: 17px;
+font-weight: bold;
+-webkit-transition:background-color;
+transition: 0.2s;
+
+}
+.nav-bar-list li:hover{color:#37ca8a; cursor: pointer;}
+.header{
+padding-top:20px;
+padding-bottom: 20px;
+
+}
+.comp-name{
+float: left;
+font-size:25px;
+margin-left: 15px;
+font-weight: bold;
+}
+
+.fa-bars{
+float: right;
+font-size: 25px;
+margin-right: 15px;
+cursor: pointer;
+}
+
+.header-responsive{display: none;}
+.top-image{
+background-image: url("images/image.jpg");
+width: 100%;
+height: 500px;
+background-size: cover;
+background-position: 0 20%;
+}
+.text{
+color: white;
+text-align: center;
+padding-top: 7%;
+}
+
+#text{
+font-size: 50px;
+font-weight: 100;
+
+}
+
+.top-image-bg{
+width:100%;
+min-height: 100%;
+background:rgba(0,0,0,0.6);
+}
+
+.button{
+padding: 10px 55px 10px 55px;
+color:white;
+background:#37ca8a;
+border: solid 1px #37ca8a;
+-webkit-transition:background-color;
+transition: 0.2s;
+margin-top: 20px;
+
+
+}
+.button:hover{
+color:#37ca8a;
+background:white;
+
+}
+.box{
+border:solid 1px #e6e6e6;
+height: 400px;
+text-align: center;
+padding:100px 50px 0 50px;
+}
+.icons{font-size: 60px; margin-bottom: 10px;}
+.middle{
+width: 100%;
+height:350px;
+background: #37ca8a;
+}
+.middle-text{
+width: 80%;
+height: 450px;
+background: #222;
+margin: auto;
+margin-top:-55px;
+box-shadow: 0 0 15px black;
+text-align: center;
+color:white;
+padding: 55px 100px 0 100px;
+}
+#upgrade{font-weight: 900;}
+.team{
+
+text-align: center;
+padding-top: 10%;
+
+}
+.team h1{
+padding-bottom:20px;
+font-size: 50px;
+
+}
+.profile{
+height: 400px;
+text-align: center;
+padding:50px 50px 0 50px;
+text-align: center;
+-webkit-transition:boxShadow;
+transition: 0.2s;
+}
+.footer{
+min-height: 50px;
+background: #222;
+text-align: center;
+color: white;
+padding-top:18px;
+}
+.profile:hover{box-shadow: 0 0 15px #e6e6e6;}
+.avatar{border-radius: 100px;}
+input[type=text] {
+width: 20%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+}
+.form{
+min-height: 400px;
+background:#37ca8a;
+margin-top: 50px;
+padding-top:100px;
+}
+.button2{
+  padding: 12px 55px 12px 55px;
+  color:white;
+  background:#37ca8a;
+  border: solid 1px white;
+  -webkit-transition:background-color;
+  transition: 0.2s;
+  margin-top: 20px;
+}
+.button2:hover{
+  color:#37ca8a;
+  background:black;
+
+}
+.form-style{
+  text-align: center;
+  margin: auto;
+
+}
+
+@media screen and (max-width: 600px) {
+    .header{display: none;}
+    .header-responsive{display: block; margin-bottom: 20px;}
+    .top-image{height: 250px; background-position: 50% 0;}
+    #text{font-size: 25px;}
+    .top-bar{display: none;}
+    .social-ico{color:white;}
+    .middle-text{padding: 55px 10px 0 10px;width: 100%;height: 400px;}
+    .middle{min-height: 400px;}
+    .form{padding-top:20px;}
+    input[type=text] {
+      width: 100%;}
+
+  }
