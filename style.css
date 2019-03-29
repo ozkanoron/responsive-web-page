@@ -149,7 +149,7 @@ transition: 0.2s;
 }
 .footer{
 min-height: 50px;
-background: red;
+background: #222;
 text-align: center;
 color: white;
 padding-top:18px;
