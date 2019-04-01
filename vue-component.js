@@ -20,8 +20,8 @@ window.addEventListener(("load"), () => {
         <h3>{{name}}</h3>
         <i>{{job}}</i>
         <hr>
-        <i style="color:#37ca8a;" class="far fa-envelope"></i><span> {{mail}}</span><br>
-        <i style="color:#37ca8a;" class="fas fa-phone"></i> <span> {{phone}}</span>
+        <i style="color:#336699;" class="far fa-envelope"></i><span> {{mail}}</span><br>
+        <i style="color:#336699;" class="fas fa-phone"></i> <span> {{phone}}</span>
     </div>
 
     `
