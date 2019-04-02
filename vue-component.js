@@ -3,7 +3,7 @@ window.addEventListener(("load"), () => {
     props:['icon', 'text'],
 
     template: `
-    <div class="col-sm-4 box">
+    <div class="col-sm-4 box" data-aos="zoom-in">
       <i v-bind:class="icon"></i>
       <h2>Lorem Ipsum</h2>
       <p>{{text}}</p>
@@ -15,7 +15,7 @@ window.addEventListener(("load"), () => {
   Vue.component("team",{
     props:["image", "name", "job", "mail", "phone"],
     template:`
-    <div class="col-sm-3 profile">
+    <div class="col-sm-3 profile" data-aos="flip-down">
         <img class="avatar" v-bind:src="image" alt="" width="150px;">
         <h3>{{name}}</h3>
         <i>{{job}}</i>
